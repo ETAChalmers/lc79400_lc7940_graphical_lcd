@@ -1,0 +1,11 @@
+#ifndef STARTUP_CONFIG_H_
+#define STARTUP_CONFIG_H_
+
+#define __STARTUP_CLEAR_BSS
+
+#define __STARTUP_CONFIG_STACK_SIZE 8192
+#define __STARTUP_CONFIG_HEAP_SIZE 8192
+
+#define __START _start
+
+#endif
