@@ -22,3 +22,5 @@ The pinout is as follows:
 The `rp2040` and `nrf` folders have code for the Raspberry Pi Pico and some nrf chips respectively. The rp2040 code uses a PIO state machine anlong with 2 DMA channels in order to draw to the screen completely in the background without any interraction by the core.
 
 The backlight is a CCFL tube, so unless you are in the mood to play with hundreds of volts you should probably swap it for some LEDs.
+
+The `lcd.c` files in both folders have more info on how the display and the drivers actually work.
