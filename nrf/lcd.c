@@ -10,7 +10,7 @@
  * 5 - Contrast, potentiometer wiper from VEE to GND, to give range around -17V to -30V
  * 6 - VDD - 5V
  * 7 - GND
- * 8 - VEE - LCD drive voltage - -35V less than VDD
+ * 8 - VEE - LCD drive voltage. VDD - VEE <= 32V, so VEE should be around -25V
  * 9 - DI 1 - Data line 1
  * 10 - DI 2 - Data line 2
  * 11 - DI 3 - Data line 3
